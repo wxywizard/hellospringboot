@@ -1,4 +1,4 @@
-package com.wxywizard.hellospringboot.controller;
+package com.wxywizard.controller;
 
 import org.springframework.web.bind.annotation.*;
 
