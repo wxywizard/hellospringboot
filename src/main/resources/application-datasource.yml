@@ -1,0 +1,12 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:sqlserver://172.20.32.107:1433;DatabaseName=bakBPM
+    data-username: sa
+    data-password: Sailing123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
