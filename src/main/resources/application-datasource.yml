@@ -1,11 +1,10 @@
 
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:sqlserver://172.20.32.107:1433;DatabaseName=bakBPM
-    data-username: sa
-    data-password: Sailing123
-
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://sh-cdb-ogmmh2x7.sql.tencentcdb.com:63154/test?useUnicode=true&amp;characterEncoding=utf-8
+    username: root
+    password: root@123
   jpa:
     hibernate:
       ddl-auto: update
