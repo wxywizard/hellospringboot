@@ -3,3 +3,11 @@ server:
 spring:
   profiles:
     include: datasource
+
+# logback-spring 中需要读取的属性
+logback:
+  logdir: ./log
+  appname: hellospringboot
+
+
+
