@@ -1,0 +1,288 @@
+2018-05-22 18:25:09,211 [restartedMain] INFO  c.w.HellospringbootApplication 50 - Starting HellospringbootApplication on DESKTOP-API2B13 with PID 7884 (D:\idea-workspace\hellospringboot\target\classes started by lenovo in D:\idea-workspace\hellospringboot)
+2018-05-22 18:25:09,212 [restartedMain] INFO  c.w.HellospringbootApplication 663 - The following profiles are active: datasource
+2018-05-22 18:25:09,250 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6536054d: startup date [Tue May 22 18:25:09 CST 2018]; root of context hierarchy
+2018-05-22 18:25:10,447 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79824bd1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-22 18:25:10,756 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 2018 (http)
+2018-05-22 18:25:10,767 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:25:10,778 [restartedMain] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-05-22 18:25:10,778 [restartedMain] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-22 18:25:10,783 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\apache-maven-3.2.1-bin\bin;C:\Program Files\TortoiseSVN\bin;D:\luaforw\5.1;D:\luaforw\5.1\clibs;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin;.]
+2018-05-22 18:25:10,879 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-05-22 18:25:10,879 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 1630 ms
+2018-05-22 18:25:10,999 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-05-22 18:25:11,003 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-22 18:25:11,004 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-22 18:25:11,004 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-22 18:25:11,004 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-22 18:25:11,123 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2018-05-22 18:25:11,763 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2018-05-22 18:25:11,796 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 361 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:25:11,804 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-22 18:25:11,849 [restartedMain] INFO  org.hibernate.Version 45 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-05-22 18:25:11,851 [restartedMain] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2018-05-22 18:25:11,884 [restartedMain] INFO  o.h.annotations.common.Version 66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-22 18:25:11,990 [restartedMain] INFO  org.hibernate.dialect.Dialect 157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-22 18:25:12,244 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:25:12,325 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:25:12,539 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6536054d: startup date [Tue May 22 18:25:09 CST 2018]; root of context hierarchy
+2018-05-22 18:25:12,561 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 235 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-22 18:25:12,611 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/test{id}],methods=[GET]}" onto public java.lang.String com.wxywizard.controller.Controller.test(java.lang.String)
+2018-05-22 18:25:12,614 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-22 18:25:12,614 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-22 18:25:12,643 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:25:12,643 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:25:12,970 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2018-05-22 18:25:13,003 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2018-05-22 18:25:13,004 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-22 18:25:13,009 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-22 18:25:13,020 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:25:13,031 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-05-22 18:25:13,043 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 2018 (http) with context path ''
+2018-05-22 18:25:13,047 [restartedMain] INFO  c.w.HellospringbootApplication 59 - Started HellospringbootApplication in 4.271 seconds (JVM running for 6.116)
+2018-05-22 18:25:25,078 [http-nio-2018-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-22 18:25:25,079 [http-nio-2018-exec-1] INFO  o.s.web.servlet.DispatcherServlet 494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-22 18:25:25,095 [http-nio-2018-exec-1] INFO  o.s.web.servlet.DispatcherServlet 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-05-22 18:25:25,158 [http-nio-2018-exec-1] INFO  com.wxywizard.controller.Controller 14 - id===2011
+2018-05-22 18:25:45,302 [http-nio-2018-exec-2] INFO  com.wxywizard.controller.Controller 14 - id===2019
+2018-05-22 18:25:54,277 [restartedMain] INFO  c.w.HellospringbootApplication 50 - Starting HellospringbootApplication on DESKTOP-API2B13 with PID 18392 (D:\idea-workspace\hellospringboot\target\classes started by lenovo in D:\idea-workspace\hellospringboot)
+2018-05-22 18:25:54,278 [restartedMain] INFO  c.w.HellospringbootApplication 663 - The following profiles are active: datasource
+2018-05-22 18:25:54,317 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7eed1e36: startup date [Tue May 22 18:25:54 CST 2018]; root of context hierarchy
+2018-05-22 18:25:55,239 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2ff59d64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-22 18:25:55,522 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 2018 (http)
+2018-05-22 18:25:55,532 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:25:55,539 [restartedMain] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-05-22 18:25:55,539 [restartedMain] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-22 18:25:55,543 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\apache-maven-3.2.1-bin\bin;C:\Program Files\TortoiseSVN\bin;D:\luaforw\5.1;D:\luaforw\5.1\clibs;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin;.]
+2018-05-22 18:25:55,647 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-05-22 18:25:55,648 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 1332 ms
+2018-05-22 18:25:55,738 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-05-22 18:25:55,742 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-22 18:25:55,742 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-22 18:25:55,742 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-22 18:25:55,742 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-22 18:25:55,841 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2018-05-22 18:25:56,434 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2018-05-22 18:25:56,460 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 361 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:25:56,469 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-22 18:25:56,509 [restartedMain] INFO  org.hibernate.Version 45 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-05-22 18:25:56,511 [restartedMain] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2018-05-22 18:25:56,533 [restartedMain] INFO  o.h.annotations.common.Version 66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-22 18:25:56,594 [restartedMain] INFO  org.hibernate.dialect.Dialect 157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-22 18:25:56,816 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:25:56,875 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:25:57,095 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7eed1e36: startup date [Tue May 22 18:25:54 CST 2018]; root of context hierarchy
+2018-05-22 18:25:57,115 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 235 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-22 18:25:57,141 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/test{id}],methods=[GET]}" onto public java.lang.String com.wxywizard.controller.Controller.test(java.lang.String)
+2018-05-22 18:25:57,144 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-22 18:25:57,145 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-22 18:25:57,164 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:25:57,164 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:25:57,393 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2018-05-22 18:25:57,419 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2018-05-22 18:25:57,420 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-22 18:25:57,424 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-22 18:25:57,433 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:25:57,440 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-05-22 18:25:57,452 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 2018 (http) with context path ''
+2018-05-22 18:25:57,455 [restartedMain] INFO  c.w.HellospringbootApplication 59 - Started HellospringbootApplication in 3.695 seconds (JVM running for 4.458)
+2018-05-22 18:26:04,399 [http-nio-2018-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-22 18:26:04,399 [http-nio-2018-exec-1] INFO  o.s.web.servlet.DispatcherServlet 494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-22 18:26:04,412 [http-nio-2018-exec-1] INFO  o.s.web.servlet.DispatcherServlet 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2018-05-22 18:26:04,469 [http-nio-2018-exec-1] INFO  com.wxywizard.controller.Controller 14 - id+++2019
+2018-05-22 18:32:00,427 [restartedMain] INFO  c.w.HellospringbootApplication 50 - Starting HellospringbootApplication on DESKTOP-API2B13 with PID 7160 (D:\idea-workspace\hellospringboot\target\classes started by lenovo in D:\idea-workspace\hellospringboot)
+2018-05-22 18:32:00,431 [restartedMain] INFO  c.w.HellospringbootApplication 663 - The following profiles are active: datasource
+2018-05-22 18:32:00,530 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b6f20e9: startup date [Tue May 22 18:32:00 CST 2018]; root of context hierarchy
+2018-05-22 18:32:01,701 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79bc1f93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-22 18:32:02,007 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 2018 (http)
+2018-05-22 18:32:02,021 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:32:02,030 [restartedMain] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-05-22 18:32:02,030 [restartedMain] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-22 18:32:02,035 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-10.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\apache-maven-3.2.1-bin\bin;C:\Program Files\TortoiseSVN\bin;D:\luaforw\5.1;D:\luaforw\5.1\clibs;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin;.]
+2018-05-22 18:32:02,147 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-05-22 18:32:02,148 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 1618 ms
+2018-05-22 18:32:02,283 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-05-22 18:32:02,289 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-22 18:32:02,290 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-22 18:32:02,291 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-22 18:32:02,291 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-22 18:32:02,429 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2018-05-22 18:32:03,027 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2018-05-22 18:32:03,065 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 361 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:32:03,074 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-22 18:32:03,121 [restartedMain] INFO  org.hibernate.Version 45 - HHH000412: Hibernate Core {5.2.17.Final}
+2018-05-22 18:32:03,122 [restartedMain] INFO  org.hibernate.cfg.Environment 213 - HHH000206: hibernate.properties not found
+2018-05-22 18:32:03,151 [restartedMain] INFO  o.h.annotations.common.Version 66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-22 18:32:03,224 [restartedMain] INFO  org.hibernate.dialect.Dialect 157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-22 18:32:03,500 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:32:03,590 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:32:03,817 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b6f20e9: startup date [Tue May 22 18:32:00 CST 2018]; root of context hierarchy
+2018-05-22 18:32:03,839 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 235 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-22 18:32:03,875 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/test{id}],methods=[GET]}" onto public java.lang.String com.wxywizard.controller.Controller.test(java.lang.String)
+2018-05-22 18:32:03,877 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-22 18:32:03,878 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-22 18:32:03,905 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:32:03,905 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:32:04,215 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2018-05-22 18:32:04,246 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2018-05-22 18:32:04,248 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-22 18:32:04,276 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-22 18:32:04,287 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:32:04,295 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-05-22 18:32:04,310 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 2018 (http) with context path ''
+2018-05-22 18:32:04,314 [restartedMain] INFO  c.w.HellospringbootApplication 59 - Started HellospringbootApplication in 4.602 seconds (JVM running for 5.512)
+2018-05-22 18:32:57,952 [http-nio-2018-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-22 18:32:57,952 [http-nio-2018-exec-1] INFO  o.s.web.servlet.DispatcherServlet 494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-22 18:32:57,970 [http-nio-2018-exec-1] INFO  o.s.web.servlet.DispatcherServlet 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-05-22 18:32:58,035 [http-nio-2018-exec-1] INFO  com.wxywizard.controller.Controller 14 - id===2019
+2018-05-22 18:33:06,791 [Thread-5] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4b6f20e9: startup date [Tue May 22 18:32:00 CST 2018]; root of context hierarchy
+2018-05-22 18:33:06,794 [Thread-5] INFO  o.s.j.e.a.AnnotationMBeanExporter 451 - Unregistering JMX-exposed beans on shutdown
+2018-05-22 18:33:06,795 [Thread-5] INFO  o.s.j.e.a.AnnotationMBeanExporter 183 - Unregistering JMX-exposed beans
+2018-05-22 18:33:06,795 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:33:06,797 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource 381 - HikariPool-1 - Shutdown initiated...
+2018-05-22 18:33:06,802 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource 383 - HikariPool-1 - Shutdown completed.
+2018-05-22 18:33:07,002 [restartedMain] INFO  c.w.HellospringbootApplication 50 - Starting HellospringbootApplication on DESKTOP-API2B13 with PID 7160 (D:\idea-workspace\hellospringboot\target\classes started by lenovo in D:\idea-workspace\hellospringboot)
+2018-05-22 18:33:07,002 [restartedMain] INFO  c.w.HellospringbootApplication 663 - The following profiles are active: datasource
+2018-05-22 18:33:07,007 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2652e6e: startup date [Tue May 22 18:33:07 CST 2018]; root of context hierarchy
+2018-05-22 18:33:07,589 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79bc1f93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-22 18:33:07,655 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 2018 (http)
+2018-05-22 18:33:07,656 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:33:07,657 [restartedMain] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-05-22 18:33:07,657 [restartedMain] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-22 18:33:07,692 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-05-22 18:33:07,693 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 686 ms
+2018-05-22 18:33:07,724 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-05-22 18:33:07,725 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-22 18:33:07,725 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-22 18:33:07,725 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-22 18:33:07,725 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-22 18:33:07,765 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-2 - Starting...
+2018-05-22 18:33:08,237 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-2 - Start completed.
+2018-05-22 18:33:08,243 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 361 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:33:08,243 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-22 18:33:08,248 [restartedMain] INFO  org.hibernate.dialect.Dialect 157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-22 18:33:08,345 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:33:08,377 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:33:08,459 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2652e6e: startup date [Tue May 22 18:33:07 CST 2018]; root of context hierarchy
+2018-05-22 18:33:08,474 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 235 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-22 18:33:08,486 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/test{id}],methods=[GET]}" onto public java.lang.String com.wxywizard.controller.Controller.test(java.lang.String)
+2018-05-22 18:33:08,490 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-22 18:33:08,491 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-22 18:33:08,510 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:33:08,511 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:33:08,637 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2018-05-22 18:33:08,655 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2018-05-22 18:33:08,656 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-22 18:33:08,660 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-22 18:33:08,665 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:33:08,666 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-05-22 18:33:08,674 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 2018 (http) with context path ''
+2018-05-22 18:33:08,676 [restartedMain] INFO  c.w.HellospringbootApplication 59 - Started HellospringbootApplication in 1.725 seconds (JVM running for 69.873)
+2018-05-22 18:33:08,680 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener 56 - Condition evaluation unchanged
+2018-05-22 18:33:11,055 [Thread-9] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2652e6e: startup date [Tue May 22 18:33:07 CST 2018]; root of context hierarchy
+2018-05-22 18:33:11,057 [Thread-9] INFO  o.s.j.e.a.AnnotationMBeanExporter 451 - Unregistering JMX-exposed beans on shutdown
+2018-05-22 18:33:11,057 [Thread-9] INFO  o.s.j.e.a.AnnotationMBeanExporter 183 - Unregistering JMX-exposed beans
+2018-05-22 18:33:11,058 [Thread-9] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:33:11,058 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource 381 - HikariPool-2 - Shutdown initiated...
+2018-05-22 18:33:11,331 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource 383 - HikariPool-2 - Shutdown completed.
+2018-05-22 18:33:11,540 [restartedMain] INFO  c.w.HellospringbootApplication 50 - Starting HellospringbootApplication on DESKTOP-API2B13 with PID 7160 (D:\idea-workspace\hellospringboot\target\classes started by lenovo in D:\idea-workspace\hellospringboot)
+2018-05-22 18:33:11,540 [restartedMain] INFO  c.w.HellospringbootApplication 663 - The following profiles are active: datasource
+2018-05-22 18:33:11,544 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4eabf22e: startup date [Tue May 22 18:33:11 CST 2018]; root of context hierarchy
+2018-05-22 18:33:12,239 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79bc1f93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-22 18:33:12,303 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 2018 (http)
+2018-05-22 18:33:12,304 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:33:12,305 [restartedMain] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-05-22 18:33:12,305 [restartedMain] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-22 18:33:12,368 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-05-22 18:33:12,369 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 825 ms
+2018-05-22 18:33:12,400 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-05-22 18:33:12,401 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-22 18:33:12,401 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-22 18:33:12,402 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-22 18:33:12,402 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-22 18:33:12,468 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-3 - Starting...
+2018-05-22 18:33:12,902 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-3 - Start completed.
+2018-05-22 18:33:12,908 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 361 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:33:12,909 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-22 18:33:12,914 [restartedMain] INFO  org.hibernate.dialect.Dialect 157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-22 18:33:13,001 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:33:13,028 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:33:13,091 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4eabf22e: startup date [Tue May 22 18:33:11 CST 2018]; root of context hierarchy
+2018-05-22 18:33:13,097 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 235 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-22 18:33:13,102 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/test{id}],methods=[GET]}" onto public java.lang.String com.wxywizard.controller.Controller.test(java.lang.String)
+2018-05-22 18:33:13,104 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-22 18:33:13,104 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-22 18:33:13,117 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:33:13,117 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:33:13,218 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2018-05-22 18:33:13,234 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2018-05-22 18:33:13,235 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-22 18:33:13,237 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-22 18:33:13,241 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:33:13,242 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-05-22 18:33:13,246 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 2018 (http) with context path ''
+2018-05-22 18:33:13,246 [restartedMain] INFO  c.w.HellospringbootApplication 59 - Started HellospringbootApplication in 1.76 seconds (JVM running for 74.444)
+2018-05-22 18:33:13,248 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener 56 - Condition evaluation unchanged
+2018-05-22 18:33:18,643 [http-nio-2018-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-22 18:33:18,643 [http-nio-2018-exec-1] INFO  o.s.web.servlet.DispatcherServlet 494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-22 18:33:18,645 [http-nio-2018-exec-1] INFO  o.s.web.servlet.DispatcherServlet 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+2018-05-22 18:33:18,647 [http-nio-2018-exec-1] INFO  com.wxywizard.controller.Controller 14 - id+++2010
+2018-05-22 18:33:26,653 [Thread-15] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 993 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4eabf22e: startup date [Tue May 22 18:33:11 CST 2018]; root of context hierarchy
+2018-05-22 18:33:26,655 [Thread-15] INFO  o.s.j.e.a.AnnotationMBeanExporter 451 - Unregistering JMX-exposed beans on shutdown
+2018-05-22 18:33:26,655 [Thread-15] INFO  o.s.j.e.a.AnnotationMBeanExporter 183 - Unregistering JMX-exposed beans
+2018-05-22 18:33:26,656 [Thread-15] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 597 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:33:26,657 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource 381 - HikariPool-3 - Shutdown initiated...
+2018-05-22 18:33:26,661 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource 383 - HikariPool-3 - Shutdown completed.
+2018-05-22 18:33:26,882 [restartedMain] INFO  c.w.HellospringbootApplication 50 - Starting HellospringbootApplication on DESKTOP-API2B13 with PID 7160 (D:\idea-workspace\hellospringboot\target\classes started by lenovo in D:\idea-workspace\hellospringboot)
+2018-05-22 18:33:26,883 [restartedMain] INFO  c.w.HellospringbootApplication 663 - The following profiles are active: datasource
+2018-05-22 18:33:26,886 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@37378f9b: startup date [Tue May 22 18:33:26 CST 2018]; root of context hierarchy
+2018-05-22 18:33:27,431 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 328 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79bc1f93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-05-22 18:33:27,485 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 2018 (http)
+2018-05-22 18:33:27,486 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:33:27,486 [restartedMain] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-05-22 18:33:27,486 [restartedMain] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-05-22 18:33:27,523 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-05-22 18:33:27,524 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 285 - Root WebApplicationContext: initialization completed in 638 ms
+2018-05-22 18:33:27,549 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 185 - Servlet dispatcherServlet mapped to [/]
+2018-05-22 18:33:27,549 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-22 18:33:27,550 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-22 18:33:27,550 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-22 18:33:27,550 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 244 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-22 18:33:27,586 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-4 - Starting...
+2018-05-22 18:33:28,048 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-4 - Start completed.
+2018-05-22 18:33:28,056 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 361 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:33:28,056 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-05-22 18:33:28,064 [restartedMain] INFO  org.hibernate.dialect.Dialect 157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-05-22 18:33:28,163 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-05-22 18:33:28,191 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:33:28,266 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 574 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@37378f9b: startup date [Tue May 22 18:33:26 CST 2018]; root of context hierarchy
+2018-05-22 18:33:28,271 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 235 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-05-22 18:33:28,277 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/test{id}],methods=[GET]}" onto public java.lang.String com.wxywizard.controller.Controller.test(java.lang.String)
+2018-05-22 18:33:28,279 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-05-22 18:33:28,281 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 547 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-05-22 18:33:28,292 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:33:28,292 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-05-22 18:33:28,387 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer 57 - LiveReload server is running on port 35729
+2018-05-22 18:33:28,404 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2018-05-22 18:33:28,404 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-05-22 18:33:28,407 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-05-22 18:33:28,410 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-2018"]
+2018-05-22 18:33:28,411 [restartedMain] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-05-22 18:33:28,414 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 2018 (http) with context path ''
+2018-05-22 18:33:28,415 [restartedMain] INFO  c.w.HellospringbootApplication 59 - Started HellospringbootApplication in 1.584 seconds (JVM running for 89.613)
+2018-05-22 18:33:28,417 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener 56 - Condition evaluation unchanged
+2018-05-22 18:33:41,017 [http-nio-2018-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-22 18:33:41,017 [http-nio-2018-exec-1] INFO  o.s.web.servlet.DispatcherServlet 494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-22 18:33:41,020 [http-nio-2018-exec-1] INFO  o.s.web.servlet.DispatcherServlet 509 - FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+2018-05-22 18:33:41,021 [http-nio-2018-exec-1] INFO  com.wxywizard.controller.Controller 14 - id===2003

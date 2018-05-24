@@ -88,4 +88,16 @@ public class Controller {
         return girlRepository.save(girl);
     }
 
+    /**
+     * 删除一个对象
+     * @param id
+     */
+    @DeleteMapping(value = "/girls/{id}")
+    public void deleteGirl(@PathVariable(value = "id") String id){
+
+        Girl girl = new Girl();
+        girl.setId(id);
+        girlRepository.delete(girl);
+    }
+
 }
