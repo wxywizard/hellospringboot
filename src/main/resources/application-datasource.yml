@@ -1,74 +1,87 @@
-
 spring:
-     datasource:
-        type: com.alibaba.druid.pool.DruidDataSource
+  datasource:
+    druid:
+      one:
+         driver-class-name: com.mysql.jdbc.Driver
+         url: jdbc:mysql://sh-cdb-ogmmh2x7.sql.tencentcdb.com:63154/test?useUnicode=true&amp;characterEncoding=utf-8
+         username: root
+         password: root@123
+         # 下面为连接池的补充设置，应用到上面所有数据源中
+         # 初始化大小，最小，最大
+         initial-size: 5
+         min-idle: 5
+         max-active: 20
+         # 配置获取连接等待超时的时间
+         max-wait: 60000
+         # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+         time-between-eviction-runs-millis: 60000
+         # 配置一个连接在池中最小生存的时间，单位是毫秒
+         min-evictable-idle-time-millis: 300000
+         test-while-idle: true
+         test-on-borrow: false
+         test-on-return: false
+         # 打开PSCache，并且指定每个连接上PSCache的大小
+         pool-prepared-statements: true
+         max-pool-prepared-statement-per-connection-size: 20
+         # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+         filters: stat,wall,log4j,config
+         # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+         connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+         # 合并多个DruidDataSource的监控数据
+         use-global-data-source-stat: true
+      two:
+         driver-class-name: com.mysql.jdbc.Driver
+         url: jdbc:mysql://sh-cdb-ogmmh2x7.sql.tencentcdb.com:63154/ssm?useUnicode=true&amp;characterEncoding=utf-8
+         username: root
+         password: root@123
+         # 下面为连接池的补充设置，应用到上面所有数据源中
+         # 初始化大小，最小，最大
+         initial-size: 5
+         min-idle: 5
+         max-active: 20
+         # 配置获取连接等待超时的时间
+         max-wait: 60000
+         # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+         time-between-eviction-runs-millis: 60000
+         # 配置一个连接在池中最小生存的时间，单位是毫秒
+         min-evictable-idle-time-millis: 300000
+         test-while-idle: true
+         test-on-borrow: false
+         test-on-return: false
+         # 打开PSCache，并且指定每个连接上PSCache的大小
+         pool-prepared-statements: true
+         max-pool-prepared-statement-per-connection-size: 20
+         # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+         filters: stat,wall,log4j,config
+         # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+         connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+         # 合并多个DruidDataSource的监控数据
+         use-global-data-source-stat: true
+         # WebStatFilter配置，说明请参考Druid Wiki，配置_配置WebStatFilter
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+        #session统计功能
+        session-stat-enable: true
+        #最大session数
+        session-stat-max-count: 100000
+        #你可以配置principalSessionName，使得druid能够知道当前的session的用户是谁
+        principal-session-name: admin
+        #你可以配置principalSessionName，使得druid能够知道当前的cookie的用户是谁
+        principal-cookie-name: admin
+        #置profileEnable能够监控单个url调用的sql列表。
+        profile-enable: true
+        # StatViewServlet配置，说明请参考Druid Wiki，配置_StatViewServlet配置
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        reset-enable: true
+        login-username: admin
+        login-password: 123
+        allow: 127.0.0.1
+        # Spring监控配置，说明请参考Druid Github Wiki，配置_Druid和Spring关联监控配置
+      aop-patterns: packages
 
-        master:
-           type: com.alibaba.druid.pool.DruidDataSource
-           driver-class-name: com.mysql.jdbc.Driver
-           url: jdbc:mysql://sh-cdb-ogmmh2x7.sql.tencentcdb.com:63154/test?useUnicode=true&amp;characterEncoding=utf-8
-           username: root
-           password: root@123
-# 下面为连接池的补充设置，应用到上面所有数据源中
-# 初始化大小，最小，最大
-           initialSize: 5
-           minIdle: 5
-           maxActive: 20
-# 配置获取连接等待超时的时间
-           maxWait: 60000
-# 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
-           timeBetweenEvictionRunsMillis: 60000
-# 配置一个连接在池中最小生存的时间，单位是毫秒
-           minEvictableIdleTimeMillis: 300000
-           validationQuery: SELECT 1 FROM DUAL
-           testWhileIdle: true
-           testOnBorrow: false
-           testOnReturn: false
-# 打开PSCache，并且指定每个连接上PSCache的大小
-           poolPreparedStatements: true
-           maxPoolPreparedStatementPerConnectionSize: 20
-# 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
-           filters: stat,wall,log4j,config
-# 通过connectProperties属性来打开mergeSql功能；慢SQL记录
-           connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-# 合并多个DruidDataSource的监控数据
-           useGlobalDataSourceStat: true
-#druid datasouce database settings end   数据源监控地址http://localhost:2018/druid
-        slave:
-           type: com.alibaba.druid.pool.DruidDataSource
-           driver-class-name: com.mysql.jdbc.Driver
-           url: jdbc:mysql://sh-cdb-ogmmh2x7.sql.tencentcdb.com:63154/ssm?useUnicode=true&amp;characterEncoding=utf-8
-           username: root
-           password: root@123
-
-# 下面为连接池的补充设置，应用到上面所有数据源中
-# 初始化大小，最小，最大
-           initialSize: 5
-           minIdle: 5
-           maxActive: 20
-# 配置获取连接等待超时的时间
-           maxWait: 60000
-# 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
-           timeBetweenEvictionRunsMillis: 60000
-# 配置一个连接在池中最小生存的时间，单位是毫秒
-           minEvictableIdleTimeMillis: 300000
-           validationQuery: SELECT 1 FROM DUAL
-           testWhileIdle: true
-           testOnBorrow: false
-           testOnReturn: false
-# 打开PSCache，并且指定每个连接上PSCache的大小
-           poolPreparedStatements: true
-           maxPoolPreparedStatementPerConnectionSize: 20
-# 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
-           filters: stat,wall,log4j,config
-# 通过connectProperties属性来打开mergeSql功能；慢SQL记录
-           connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-# 合并多个DruidDataSource的监控数据
-           useGlobalDataSourceStat: true
-#druid datasouce database settings end   数据源监控地址http://localhost:2018/druid
-     jpa:
-       show-sql: true
-       hibernate:
-         ddl-auto: update
 
 
