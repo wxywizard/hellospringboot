@@ -16,8 +16,9 @@ import javax.sql.DataSource;
 @MapperScan(basePackages = "com.wxywizard.mapper.one", sqlSessionTemplateRef  = "oneSqlSessionTemplate")
 public class OneDataSourceConfig {
 
+    /**采用mybatis 时打开Primary注解，关闭jpa里的Primary注解*/
     @Bean(name = "oneSqlSessionFactory")
-    @Primary
+   // @Primary
     public SqlSessionFactory testSqlSessionFactory(@Qualifier("oneDataSource") DataSource dataSource) throws Exception {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
@@ -25,13 +26,13 @@ public class OneDataSourceConfig {
     }
 
     @Bean(name = "oneTransactionManager")
-    @Primary
+   // @Primary
     public DataSourceTransactionManager testTransactionManager(@Qualifier("oneDataSource") DataSource dataSource) {
         return new DataSourceTransactionManager(dataSource);
     }
 
     @Bean(name = "oneSqlSessionTemplate")
-    @Primary
+   // @Primary
     public SqlSessionTemplate testSqlSessionTemplate(@Qualifier("oneSqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws Exception {
         return new SqlSessionTemplate(sqlSessionFactory);
     }

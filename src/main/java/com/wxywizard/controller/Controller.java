@@ -1,14 +1,15 @@
 package com.wxywizard.controller;
 
 
-import com.wxywizard.dao.GirlRepository;
-import com.wxywizard.domain.Girl;
+import com.wxywizard.dao.repositoryone.GirlRepository;
+import com.wxywizard.dao.repositorytwo.GirlRepositorytwo;
+import com.wxywizard.domain.domainone.Girl;
+import com.wxywizard.domain.domaintwo.GirlTwo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.web.bind.annotation.*;
 
-import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
@@ -18,6 +19,8 @@ public class Controller {
 
     @Autowired
     private GirlRepository girlRepository;
+    @Autowired
+    private GirlRepositorytwo girlRepositorytwo;
 
     @RequestMapping(value = "/test/{id}",method = RequestMethod.GET)
     public String test(@PathVariable(value = "id",required = true) String id){
@@ -46,10 +49,20 @@ public class Controller {
      * 查询对象
      * @return
      */
-    @GetMapping(value = "/girls")
+    @GetMapping(value = "/girlsone")
     public List<Girl> listGirl(){
 
         return girlRepository.findAll();
+    }
+
+    /**
+     * 查询对象
+     * @return
+     */
+    @GetMapping(value = "/girlstwo")
+    public List<GirlTwo> listGirl2(){
+
+        return girlRepositorytwo.findAll();
     }
 
     /**

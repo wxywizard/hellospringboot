@@ -1,16 +1,15 @@
-package com.wxywizard.domain;
+package com.wxywizard.domain.domaintwo;
 
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Data
 @Entity
-public class Girl {
+public class GirlTwo {
 
     @Id
     @GenericGenerator(name="system-uuid", strategy="uuid")
@@ -21,7 +20,7 @@ public class Girl {
 
     private Integer age;
 
-    public Girl() {
+    public GirlTwo() {
     }
 
 }

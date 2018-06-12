@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class MultiDataSourceConfig {
-    @Primary
+    //@Primary
     @Bean(name = "oneDataSource")
     @ConfigurationProperties("spring.datasource.druid.one")
     public DataSource dataSourceOne(){

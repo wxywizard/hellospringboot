@@ -7,6 +7,9 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+
 
 # logback-spring 中需要读取的属性
 logback:
