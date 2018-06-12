@@ -1,4 +1,4 @@
-package com.wxywizard.config;
+package com.wxywizard.mybatisConfig;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;

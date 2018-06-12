@@ -1,4 +1,4 @@
-package com.wxywizard.config;
+package com.wxywizard.mybatisConfig;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -32,7 +32,7 @@ public class OneDataSourceConfig {
     }
 
     @Bean(name = "oneSqlSessionTemplate")
-   // @Primary
+    @Primary
     public SqlSessionTemplate testSqlSessionTemplate(@Qualifier("oneSqlSessionFactory") SqlSessionFactory sqlSessionFactory) throws Exception {
         return new SqlSessionTemplate(sqlSessionFactory);
     }
