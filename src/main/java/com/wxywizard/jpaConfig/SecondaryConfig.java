@@ -18,7 +18,7 @@ import javax.sql.DataSource;
 import java.util.Map;
 
 /**
- * @author by wuweifeng on 2017/10/10.
+ * @author by wxy on 2018/07/03.
  */
 @Configuration
 @EnableTransactionManagement
