@@ -5,6 +5,7 @@ import com.wxywizard.dao.repositoryone.GirlRepository;
 import com.wxywizard.dao.repositorytwo.GirlRepositorytwo;
 import com.wxywizard.domain.domainone.Girl;
 import com.wxywizard.domain.domaintwo.GirlTwo;
+import com.wxywizard.service.GirlService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
@@ -21,6 +22,9 @@ public class Controller {
     private GirlRepository girlRepository;
     @Autowired
     private GirlRepositorytwo girlRepositorytwo;
+
+    @Autowired
+    private GirlService girlService;
 
     @RequestMapping(value = "/test/{id}",method = RequestMethod.GET)
     public String test(@PathVariable(value = "id",required = true) String id){
@@ -112,6 +116,15 @@ public class Controller {
         Girl girl = new Girl();
         girl.setId(id);
         girlRepository.delete(girl);
+    }
+
+    /**
+     *
+     */
+    @GetMapping(value = "/exception/{id}")
+    public void exception(@PathVariable(value = "id") String id) throws Exception{
+
+        girlService.getAge(id);
     }
 
 }
