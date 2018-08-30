@@ -10,7 +10,7 @@ public class jdbc {
     public static void main(String[] args) throws ClassNotFoundException, SQLException  {
                 String URL="jdbc:mysql://sh-cdb-ogmmh2x7.sql.tencentcdb.com:63154/test?useUnicode=true&amp;characterEncoding=utf-8";
                 String USER="root";
-                String PASSWORD="root@123";
+                String PASSWORD="***";
                 //1.加载驱动程序
                 Class.forName("com.mysql.jdbc.Driver");
                 //2.获得数据库链接

@@ -5,7 +5,7 @@ spring:
          driver-class-name: com.mysql.jdbc.Driver
          url: jdbc:mysql://sh-cdb-ogmmh2x7.sql.tencentcdb.com:63154/test?useUnicode=true&amp;characterEncoding=utf-8
          username: root
-         password: root@123
+         password: 123456
          # 下面为连接池的补充设置，应用到上面所有数据源中
          # 初始化大小，最小，最大
          initial-size: 5
@@ -33,7 +33,7 @@ spring:
          driver-class-name: com.mysql.jdbc.Driver
          url: jdbc:mysql://sh-cdb-ogmmh2x7.sql.tencentcdb.com:63154/ssm?useUnicode=true&amp;characterEncoding=utf-8
          username: root
-         password: root@123
+         password: 123456
          # 下面为连接池的补充设置，应用到上面所有数据源中
          # 初始化大小，最小，最大
          initial-size: 5
